@@ -1,0 +1,52 @@
+/* style.css */
+
+body {
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    
+  }
+  
+  .title {
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 30px;
+    display: block; /* Set the submit button to block-level element */
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .input-field {
+    height: 200px; /* Increase the height for a larger text box */
+    font-size: 14pt;
+    width: 100%;
+    resize: none; /* Prevent resizing of the text box */
+    display: block;
+    margin: 0 auto; /* Center the text box horizontally */
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block; /* Set the submit button to block-level element */
+    margin: 0 auto;
+  }
+  
+  .show-data {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
